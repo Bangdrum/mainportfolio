@@ -47,7 +47,7 @@ h1 {
 }
 
 #masthead {
-  position: relative;
+  position: fixed;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
