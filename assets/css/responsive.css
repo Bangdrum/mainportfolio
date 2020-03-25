@@ -35,5 +35,6 @@
     #masthead {
         float: none;
         width: 100%;
+        position: fixed;
     }
 }
