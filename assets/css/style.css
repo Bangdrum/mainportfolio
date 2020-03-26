@@ -4,6 +4,8 @@ body {
   line-height: 34px;
   color: #000000;
   background: url("../images/black.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
 }
 
 * {
