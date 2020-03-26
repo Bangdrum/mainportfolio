@@ -1,5 +1,4 @@
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 485px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   #masthead {
     float: none;
     display: block;
@@ -16,7 +15,7 @@
   }
 }
 
-@media only screen and (min-width: 486px) and (max-width: 812px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   #masthead {
     float: none;
     display: block;
@@ -36,45 +35,3 @@
     width: 342px;
   }
 }
-
-/* Extra Small Devices, Phones */
-/* @media only screen and (min-width : 480px) {
-  #masthead {
-    float: none;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    overflow: hidden;
-    position: absolute;
-    width: 96%;
-  }
-
-  .main-section {
-    margin-top: 45px;
-  }
-} */
-
-/* Small Devices, Tablets */
-/* @media only screen and (min-width : 768px) {
-  #masthead {
-    float: none;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    overflow: hidden;
-    position: absolute;
-    width: 96%;
-  }
-
-  .main-section {
-    margin-top: 45px;
-  }
-} */
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {}
