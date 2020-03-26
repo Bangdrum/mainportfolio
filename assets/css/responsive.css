@@ -15,7 +15,7 @@
   }
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and (min-device-width: 896px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   #masthead {
     float: none;
     display: block;
