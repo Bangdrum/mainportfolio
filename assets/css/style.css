@@ -4,14 +4,6 @@ body {
   line-height: 34px;
   color: #000000;
   background: url("../images/black.jpg") no-repeat center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 * {
@@ -98,7 +90,6 @@ nav a:first-child {
 }
 
 footer {
-
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -120,7 +111,6 @@ h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
-  width: 100%;
 }
 
 .main-section {
